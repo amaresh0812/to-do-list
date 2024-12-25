@@ -1,0 +1,76 @@
+*{
+    background: rgb(58, 164, 180);
+    font-family: "Stylish", serif;
+    font-weight: bold;
+    color: rgb(54, 58, 61);
+    font-style: normal;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.box{
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.task-box{
+    background-color: coral;
+    display: flex;
+    margin-left: 25%;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+    width: 50%;
+    border-radius: 50px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.text-box{
+    border-radius: 50px;
+    background-color: rgba(30, 201, 201, 0.1);
+    border: transparent;
+}
+input{
+    width: 70%;
+    background-color: rgba(202, 225, 225, 0.1);
+
+}
+.label{
+    width: 70%;
+    background-color: rgba(202, 225, 225, 0.1);
+}
+.btn-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.check{
+    width: 50px;
+    border-radius: 5px;
+    background-color: rgba(202, 225, 225, 0.1);
+    margin-left: 10px;
+}
+.delete{
+    width: 50px;
+    background-color: crimson;
+    border-radius: 10px;
+}
+svg{
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    color: chartreuse;
+}
+.add-btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: aqua;
+}
+.add-btn:hover{
+    background-color: chartreuse;
+}
